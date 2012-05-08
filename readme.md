@@ -22,3 +22,5 @@ Example:
 	var nsAttr = doc.documentElement.getAttributeNS('./lite','x')
 	console.info(nsAttr)
 	console.info(doc)
+	// output the document as an XML string
+	console.info( doc.documentElement.toString() )
